@@ -54,7 +54,7 @@ boss = ['cfgelier','cfgelier','cfgelier,"cfgelier"]#usuarios supremos
 Configs = {"uclv":'',"gtm":"","uvs":"","ltu":"", 
 			"ucuser": "", "ucpass":"","uclv_p":"", "gp":'', "s":"On", 
 			'Yama_Tsukami': {'z': 90,"m":"u","a":"c","t":"y"}, 
-			'Orisha91': {'z': 90,"m":"u","a":"c","t":"y"}, 
+			'Michel03': {'z': 90,"m":"u","a":"c","t":"y"}, 
 			'anonedev': {'z': 90,"m":"u","a":"c","t":"y"}, 
 			'UltraFastSuport': {'z': 90,"m":"u","a":"c","t":"y"}
 			}
