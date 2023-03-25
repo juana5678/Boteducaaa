@@ -1,2 +1,2 @@
-Bot_token = "5887975865:AAF8bnF51ZkdHVBlKef3BYSNRs8QaBau8Ew"
+Bot_token = "5962860437:AAHBXJp289OkIeKRjc5_XahMAbS5jZq8gcI"
 chanel_id =  -1001896572164
