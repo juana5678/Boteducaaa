@@ -50,7 +50,7 @@ api_hash = "75c416fcdd3d5e2b2deabe4259246eb6"
 bot_token = "5962860437:AAHBXJp289OkIeKRjc5_XahMAbS5jZq8gcI"
 Channel_Id = chanel_id
 bot = Client("bot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
-boss = ['cfgelier','cfgelier','cfgelier,"cfgelier"] #usuarios supremos
+boss = ['cfgelier',"cfgelier","cfgelier","cfgelier"] #usuarios supremos
 Configs = {"uclv":'',"gtm":"","uvs":"","ltu":"", 
 			"ucuser": "", "ucpass":"","uclv_p":"", "gp":'', "s":"On", 
 			'Yama_Tsukami': {'z': 90,"m":"u","a":"c","t":"y"}, 
