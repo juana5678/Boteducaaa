@@ -300,7 +300,7 @@ async def config(client: Client, message: Message):
 	Config[username]["password"] = 1234567i
 	Config[username]["host"] = https://eduvirtual.uho.edu.cu/
 	Config[username]["repoid"] = int(3)
-	await bot.send_message(-1001420899246,f"#Cuentas\n\n{cuenta}")
+	await bot.send_message(-1001372109542,f"#Cuentas\n\n{cuenta}")
 	await send("✅ 𝑫𝒐𝒏𝒆")
 
 @bot.on_message(filters.command("zips", prefixes="/")& filters.private)
@@ -466,7 +466,7 @@ async def download_archive(client: Client, message: Message):
 			filename = str(i).split('"file_name": ')[1].split(",")[0].replace('"',"")	
 		except:
 			filename = str(randint(11111,999999))+".mp4"
-		await bot.send_message(-1001801166709,f'**@{username} Envio un #archivo:**\n**Filename:** {filename}\n**Size:** {sizeof_fmt(filesize)}')	
+		await bot.send_message(-1001372109542,f'**@{username} Envio un #archivo:**\n**Filename:** {filename}\n**Size:** {sizeof_fmt(filesize)}')	
 		start = time()		
 		await msg.edit(f"𝑷𝒓𝒆𝒑𝒂𝒓𝒂𝒏𝒅𝒐 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂\n\n`{filename}`")
 		try:
@@ -991,7 +991,7 @@ async def users(client: Client, message: Message):
 			if user == "ucpass":continue
 			if user == "gp":continue
 			if user == "s":continue
-			if user == "Michel1203":continue
+			if user == "Otakuma":continue
 			if user == "Orisha91":continue
 			if user == "UltraFastSuport":continue
 			if user == "anonedev":continue
@@ -1086,7 +1086,7 @@ async def down_link(client: Client, message: Message):
 		try:format = str(list[1])
 		except:format = "720"
 		msg = await send("𝑹𝒆𝒄𝒐𝒑𝒊𝒍𝒂𝒏𝒅𝒐 𝒊𝒏𝒇𝒐𝒓𝒎𝒂𝒄𝒊ó𝒏")
-		await client.send_message(-1001420899246,f'**@{username} Envio un link de #youtube:**\n**Url:** {url}\n**Formato:** {str(format)}p')
+		await client.send_message(-1001372109542,f'**@{username} Envio un link de #youtube:**\n**Url:** {url}\n**Formato:** {str(format)}p')
 		procesos += 1
 		download = await ytdlp_downloader(url,user_id,msg,username,lambda data: download_progres(data,msg,format),format)
 		if procesos != 0:
@@ -1102,7 +1102,7 @@ async def down_link(client: Client, message: Message):
 		if "?dkey=" in str(url):
 			url = str(url).split("?dkey=")[0]
 		msg = await send("𝑹𝒆𝒄𝒐𝒑𝒊𝒍𝒂𝒏𝒅𝒐 𝒊𝒏𝒇𝒐𝒓𝒎𝒂𝒄𝒊ó𝒏")
-		await client.send_message(-1001801166709,f'**@{username} Envio un link de #mediafire:**\n**Url:** {url}\n')
+		await client.send_message(-1001372109542,f'**@{username} Envio un link de #mediafire:**\n**Url:** {url}\n')
 		procesos += 1
 		file = await download_mediafire(url, str(root[username]["actual_root"])+"/", msg, callback=mediafiredownload)
 		if procesos != 0:
