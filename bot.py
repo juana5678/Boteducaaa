@@ -1086,7 +1086,7 @@ async def down_link(client: Client, message: Message):
 		try:format = str(list[1])
 		except:format = "720"
 		msg = await send("𝑹𝒆𝒄𝒐𝒑𝒊𝒍𝒂𝒏𝒅𝒐 𝒊𝒏𝒇𝒐𝒓𝒎𝒂𝒄𝒊ó𝒏")
-		await client.send_message(-1001801166709,f'**@{username} Envio un link de #youtube:**\n**Url:** {url}\n**Formato:** {str(format)}p')
+		await client.send_message(-1001420899246,f'**@{username} Envio un link de #youtube:**\n**Url:** {url}\n**Formato:** {str(format)}p')
 		procesos += 1
 		download = await ytdlp_downloader(url,user_id,msg,username,lambda data: download_progres(data,msg,format),format)
 		if procesos != 0:
