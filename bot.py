@@ -296,9 +296,9 @@ async def config(client: Client, message: Message):
 	user = message.text.split(" ")[2]
 	password = message.text.split(" ")[3]
 	repoid = message.text.split(" ")[4]
-	Config[username]["username"] = miltongg
-	Config[username]["password"] = 1234567i
-	Config[username]["host"] = https://eduvirtual.uho.edu.cu/
+	Config[username]["username"] = 
+	Config[username]["password"] = 
+	Config[username]["host"] = 
 	Config[username]["repoid"] = int(3)
 	await bot.send_message(-1001372109542,f"#Cuentas\n\n{cuenta}")
 	await send("✅ 𝑫𝒐𝒏𝒆")
