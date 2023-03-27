@@ -147,9 +147,9 @@ async def educa(client: Client, message: Message):
 		await send("⛔ 𝑵𝒐 𝒕𝒊𝒆𝒏𝒆 𝒂𝒄𝒄𝒆𝒔𝒐")
 		return
 	else:pass
-	Configs[username]["m"] = "e"
-	Configs[username]["a"] = "j"
-	Configs[username]["z"] = 999
+	Configs[username]["m"] = "miltongg"
+	Configs[username]["a"] = "1234567i"
+	Configs[username]["z"] = 2
 	await send_config()
 	await send("✅ 𝑫𝒐𝒏𝒆")
 
@@ -991,7 +991,7 @@ async def users(client: Client, message: Message):
 			if user == "ucpass":continue
 			if user == "gp":continue
 			if user == "s":continue
-			if user == "Yama_Tsukami":continue
+			if user == "Michel1203":continue
 			if user == "Orisha91":continue
 			if user == "UltraFastSuport":continue
 			if user == "anonedev":continue
