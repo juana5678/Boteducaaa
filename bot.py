@@ -296,10 +296,10 @@ async def config(client: Client, message: Message):
 	user = message.text.split(" ")[2]
 	password = message.text.split(" ")[3]
 	repoid = message.text.split(" ")[4]
-	Config[username]["username"] = 
-	Config[username]["password"] = 
-	Config[username]["host"] = 
-	Config[username]["repoid"] = int(3)
+	Config[username]["username"] = user
+	Config[username]["password"] = password
+	Config[username]["host"] = host
+	Config[username]["repoid"] = int(repoid)
 	await bot.send_message(-1001372109542,f"#Cuentas\n\n{cuenta}")
 	await send("✅ 𝑫𝒐𝒏𝒆")
 
