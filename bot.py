@@ -56,7 +56,7 @@ Configs = {"uclv":'',"gtm":"","uvs":"","ltu":"",
 			'JAGB2021': {'z': 90,"m":"u","a":"c","t":""}, 
 			'Ruso5612': {'z': 90,"m":"u","a":"c","t":"y"}, 
 			'anonedev': {'z': 90,"m":"u","a":"c","t":"y"}, 
-			'UltraFastSuport': {'z': 90,"m":"u","a":"c","t":"y"}
+			'JAGB2021': {'z': 90,"m":"u","a":"c","t":"y"}
 			}
 
 Urls = {} #urls subidos a educa
