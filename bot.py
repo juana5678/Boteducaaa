@@ -45,9 +45,9 @@ from moodle_client import MoodleClient2
 from client_nex import Client as moodle
 from moodle import delete
 
-api_id = 21552633
+api_id = 10181262
 api_hash = "75c416fcdd3d5e2b2deabe4259246eb6"
-bot_token = "5962860437:AAHBXJp289OkIeKRjc5_XahMAbS5jZq8gcI"
+bot_token = "5947045568:AAE0mfkt85dPRAYIKGBEFdHd4qG4U3Y4bAA"
 Channel_Id = chanel_id
 bot = Client("bot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 boss = ["cfgelier","cfgelier","cfgelier","Michel1203"] #usuarios supremos
