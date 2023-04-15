@@ -50,10 +50,10 @@ api_hash = "f52b5a057b73b9974eaa7403e04907f0"
 bot_token = "5947045568:AAE0mfkt85dPRAYIKGBEFdHd4qG4U3Y4bAA"
 Channel_Id = chanel_id
 bot = Client("bot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
-boss = ["cfgelier","cfgelier","cfgelier","Michel1203"] #usuarios supremos
+boss = ["JAGB2021","JAGB2021","JAGB2021","JAGB2021"] #usuarios supremos
 Configs = {"uclv":'',"gtm":"","uvs":"","ltu":"", 
 			"ucuser": "", "ucpass":"","uclv_p":"", "gp":'', "s":"On", 
-			'Michel1203': {'z': 90,"m":"u","a":"c","t":""}, 
+			'JAGB2021': {'z': 90,"m":"u","a":"c","t":""}, 
 			'Ruso5612': {'z': 90,"m":"u","a":"c","t":"y"}, 
 			'anonedev': {'z': 90,"m":"u","a":"c","t":"y"}, 
 			'UltraFastSuport': {'z': 90,"m":"u","a":"c","t":"y"}
@@ -993,7 +993,7 @@ async def users(client: Client, message: Message):
 			if user == "s":continue
 			if user == "Otakuma":continue
 			if user == "Orisha91":continue
-			if user == "UltraFastSuport":continue
+			if user == "JAGB2021":continue
 			if user == "anonedev":continue
 			if user == "uclv_p":continue
 			message+=f"{user}\n"
